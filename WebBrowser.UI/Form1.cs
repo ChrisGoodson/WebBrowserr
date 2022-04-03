@@ -14,89 +14,60 @@ namespace WebBrowser.UI
 {
     public partial class Form1 : Form
     {
+        private TabPage dragTab;
+        int tab = 2;
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void AboutTool_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Chris Goodson, fzg0021");
-        }
-
-        private void BackButton_Click(object sender, EventArgs e)
-        {
-           WebBrowserControl.GoBack();
-        }
-
-        private void ForwardButton_Click(object sender, EventArgs e)
-        {
-            string url = AddressTextBox.Text;
-            if (Uri.IsWellFormedUriString(url, UriKind.RelativeOrAbsolute))
-            {
-                TabPage.Text = url;
-                WebBrowserControl.Navigate(url);
-            }
-        }
-
-        private void RefreshButton_Click(object sender, EventArgs e)
-        {
-            WebBrowserControl.Refresh();
-        }
-
-        private void HomeButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void AddressTextBox_KeyUp(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                string url = AddressTextBox.Text;
-
-                if (Uri.IsWellFormedUriString(url, UriKind.RelativeOrAbsolute))
-                {
-                    TabPage.Text = url;
-                    WebBrowserControl.Navigate(url);
-                }
-            }
-        }
-
-        private void GoButton_Click(object sender, EventArgs e)
-        {
-            string url = AddressTextBox.Text;
-            if (Uri.IsWellFormedUriString(url, UriKind.RelativeOrAbsolute))
-            {
-                TabPage.Text = url;
-                WebBrowserControl.Navigate(url);
-            }
-        }
-
-        private void BookmarkButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TabControl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void WebBrowserControl_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
-        {
-
-        }
-
         private void exitWebBrowserToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Enter a mssag here");
+        }
 
-        private void AddressTextBox_TextChanged_1(object sender, EventArgs e)
+        private void webUserControl1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void MainForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control && (e.KeyCode == Keys.T))
+            {
+                //this.tabControl1.TabPages.Add(new TabPage("New Tab"));
+
+            }
+            if (e.Control && (e.KeyCode == Keys.W))
+            {
+                this.tabControl1.TabPages.RemoveAt(this.tabControl1.SelectedIndex);
+            }
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void newTabToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //this.tabControl1.TabPages.Add(new TabPage("New Tab"));
+            TabPage tabPage = new TabPage();
+            tabPage.Text = "New Tab";
+            WebUserControl webUserControl = new WebUserControl();
+            webUserControl.Dock = DockStyle.Fill;
+            tabPage.Controls.Add(webUserControl);
+            tabControl1.TabPages.Add((TabPage)tabPage);
+        }
+        private void closeCurrentTabToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.tabControl1.TabPages.RemoveAt(this.tabControl1.SelectedIndex);
         }
     }
 }

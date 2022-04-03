@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WebBrowser;
+
 
 namespace WebBrowser.UI
 {
@@ -24,12 +26,17 @@ namespace WebBrowser.UI
 
         private void BackButton_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void ForwardButton_Click(object sender, EventArgs e)
         {
-
+            string url = AddressTextBox.Text;
+            if (Uri.IsWellFormedUriString(url, UriKind.RelativeOrAbsolute))
+            {
+                TabPage.Text = url;
+                WebBrowserControl.Navigate(url);
+            }
         }
 
         private void RefreshButton_Click(object sender, EventArgs e)

@@ -47,7 +47,6 @@
             this.RefreshButton = new System.Windows.Forms.ToolStripButton();
             this.HomeButton = new System.Windows.Forms.ToolStripButton();
             this.BookmarkButton = new System.Windows.Forms.ToolStripButton();
-            this.GoButton = new System.Windows.Forms.ToolStripButton();
             this.TabControl = new System.Windows.Forms.TabPage();
             this.WebBrowserControl = new System.Windows.Forms.WebBrowser();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
@@ -157,8 +156,7 @@
             this.ForwardButton,
             this.RefreshButton,
             this.HomeButton,
-            this.BookmarkButton,
-            this.GoButton});
+            this.BookmarkButton});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(800, 25);
@@ -215,16 +213,6 @@
             this.BookmarkButton.Text = "toolStripButton2";
             this.BookmarkButton.Click += new System.EventHandler(this.BookmarkButton_Click);
             // 
-            // GoButton
-            // 
-            this.GoButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.GoButton.Image = ((System.Drawing.Image)(resources.GetObject("GoButton.Image")));
-            this.GoButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.GoButton.Name = "GoButton";
-            this.GoButton.Size = new System.Drawing.Size(23, 22);
-            this.GoButton.Text = "toolStripButton2";
-            this.GoButton.Click += new System.EventHandler(this.GoButton_Click);
-            // 
             // TabControl
             // 
             this.TabControl.Controls.Add(this.WebBrowserControl);
@@ -276,7 +264,7 @@
             this.AddressTextBox.TextChanged += new System.EventHandler(this.AddressTextBox_TextChanged_1);
             this.AddressTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.AddressTextBox_KeyUp);
             // 
-            // MainBrowserForm
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -285,7 +273,7 @@
             this.Controls.Add(this.AddressTextBox);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "MainBrowserForm";
+            this.Name = "Form1";
             this.Text = "MainBrowserForm";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -322,7 +310,6 @@
         private System.Windows.Forms.TabControl TabPage;
         private System.Windows.Forms.WebBrowser WebBrowserControl;
         private System.Windows.Forms.WebBrowser webBrowser1;
-        private System.Windows.Forms.ToolStripButton GoButton;
         private System.Windows.Forms.TextBox AddressTextBox;
     }
 }

@@ -26,7 +26,7 @@ namespace WebBrowser.UI
 
         private void BackButton_Click(object sender, EventArgs e)
         {
-           webBrowser1.GoBack();
+           WebBrowserControl.GoBack();
         }
 
         private void ForwardButton_Click(object sender, EventArgs e)
@@ -41,7 +41,7 @@ namespace WebBrowser.UI
 
         private void RefreshButton_Click(object sender, EventArgs e)
         {
-            webBrowser1.Refresh();
+            WebBrowserControl.Refresh();
         }
 
         private void HomeButton_Click(object sender, EventArgs e)
@@ -58,7 +58,7 @@ namespace WebBrowser.UI
                 if (Uri.IsWellFormedUriString(url, UriKind.RelativeOrAbsolute))
                 {
                     TabPage.Text = url;
-                    webBrowser1.Navigate(url);
+                    WebBrowserControl.Navigate(url);
                 }
             }
         }

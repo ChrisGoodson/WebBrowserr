@@ -14,8 +14,6 @@ namespace WebBrowser.UI
 {
     public partial class Form1 : Form
     {
-        private TabPage dragTab;
-        int tab = 2;
 
         public Form1()
         {
@@ -29,7 +27,7 @@ namespace WebBrowser.UI
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Enter a mssag here");
+            MessageBox.Show("Chris Goodson, fzg0021");
         }
 
         private void webUserControl1_Load(object sender, EventArgs e)
@@ -68,6 +66,11 @@ namespace WebBrowser.UI
         private void closeCurrentTabToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.tabControl1.TabPages.RemoveAt(this.tabControl1.SelectedIndex);
+        }
+
+        private void webUserControl2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

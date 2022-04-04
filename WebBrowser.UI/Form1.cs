@@ -39,8 +39,6 @@ namespace WebBrowser.UI
         {
             if (e.Control && (e.KeyCode == Keys.T))
             {
-                //this.tabControl1.TabPages.Add(new TabPage("New Tab"));
-
             }
             if (e.Control && (e.KeyCode == Keys.W))
             {
@@ -55,7 +53,7 @@ namespace WebBrowser.UI
 
         private void newTabToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //this.tabControl1.TabPages.Add(new TabPage("New Tab"));
+
             TabPage tabPage = new TabPage();
             tabPage.Text = "New Tab";
             WebUserControl webUserControl = new WebUserControl();

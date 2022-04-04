@@ -62,7 +62,7 @@
             // 
             this.BackButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BackButton.Image = ((System.Drawing.Image)(resources.GetObject("BackButton.Image")));
-            this.BackButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BackButton.ImageTransparentColor = System.Drawing.Color.Blue;
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(24, 24);
             this.BackButton.Text = "toolStripButton1";
@@ -72,7 +72,7 @@
             // 
             this.ForwardButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.ForwardButton.Image = ((System.Drawing.Image)(resources.GetObject("ForwardButton.Image")));
-            this.ForwardButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ForwardButton.ImageTransparentColor = System.Drawing.Color.Blue;
             this.ForwardButton.Name = "ForwardButton";
             this.ForwardButton.Size = new System.Drawing.Size(24, 24);
             this.ForwardButton.Text = "toolStripButton2";
@@ -82,7 +82,7 @@
             // 
             this.RefreshButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.RefreshButton.Image = ((System.Drawing.Image)(resources.GetObject("RefreshButton.Image")));
-            this.RefreshButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.RefreshButton.ImageTransparentColor = System.Drawing.Color.Blue;
             this.RefreshButton.Name = "RefreshButton";
             this.RefreshButton.Size = new System.Drawing.Size(24, 24);
             this.RefreshButton.Text = "toolStripButton3";
@@ -92,7 +92,7 @@
             // 
             this.HomeButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.HomeButton.Image = ((System.Drawing.Image)(resources.GetObject("HomeButton.Image")));
-            this.HomeButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.HomeButton.ImageTransparentColor = System.Drawing.Color.Blue;
             this.HomeButton.Name = "HomeButton";
             this.HomeButton.Size = new System.Drawing.Size(24, 24);
             this.HomeButton.Text = "toolStripButton4";
@@ -109,7 +109,7 @@
             // 
             this.GoButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.GoButton.Image = ((System.Drawing.Image)(resources.GetObject("GoButton.Image")));
-            this.GoButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.GoButton.ImageTransparentColor = System.Drawing.Color.Blue;
             this.GoButton.Name = "GoButton";
             this.GoButton.Size = new System.Drawing.Size(24, 24);
             this.GoButton.Text = "toolStripButton5";
@@ -119,7 +119,7 @@
             // 
             this.BookmarkButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.BookmarkButton.Image = ((System.Drawing.Image)(resources.GetObject("BookmarkButton.Image")));
-            this.BookmarkButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BookmarkButton.ImageTransparentColor = System.Drawing.Color.Blue;
             this.BookmarkButton.Name = "BookmarkButton";
             this.BookmarkButton.Size = new System.Drawing.Size(24, 24);
             this.BookmarkButton.Text = "toolStripButton6";

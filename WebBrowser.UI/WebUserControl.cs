@@ -43,7 +43,6 @@ namespace WebBrowser.UI
         }
 
 
-
         private void webBrowser1_Navigated(object sender,
             WebBrowserNavigatedEventArgs e)
         {

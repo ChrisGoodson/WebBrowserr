@@ -7,15 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WebBrowser;
-
 
 namespace WebBrowser.UI
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -39,6 +36,8 @@ namespace WebBrowser.UI
         {
             if (e.Control && (e.KeyCode == Keys.T))
             {
+                //this.tabControl1.TabPages.Add(new TabPage("New Tab"));
+
             }
             if (e.Control && (e.KeyCode == Keys.W))
             {
@@ -53,7 +52,6 @@ namespace WebBrowser.UI
 
         private void newTabToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
             TabPage tabPage = new TabPage();
             tabPage.Text = "New Tab";
             WebUserControl webUserControl = new WebUserControl();
@@ -64,11 +62,6 @@ namespace WebBrowser.UI
         private void closeCurrentTabToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.tabControl1.TabPages.RemoveAt(this.tabControl1.SelectedIndex);
-        }
-
-        private void webUserControl2_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void manageBookmarksToolStripMenuItem_Click_1(object sender, EventArgs e)
@@ -83,5 +76,14 @@ namespace WebBrowser.UI
             historyForm.ShowDialog();
         }
 
+        private void webUserControl2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

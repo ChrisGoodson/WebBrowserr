@@ -13,7 +13,7 @@ namespace WebBrowser.Logic
         public static void AddItem(HistoryItem item)
         {
             var adapter = new HistoryTableAdapter();
-            adapter.Insert(item.URL, item.Title, Convert.ToString(item.Date));
+            adapter.Insert(item.URL, item.Title, item.Date);
         }
 
         public static List<HistoryItem> getItems()
@@ -27,7 +27,7 @@ namespace WebBrowser.Logic
                 var item = new HistoryItem();
                 item.URL = row.URL;
                 item.Title = row.Title;
-                item.Date = DateTime.Parse(row.Date);
+                item.Date = row.Date;
 
 
                 results.Add(item);

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebBrowser.Data.BookmarkDataSetTableAdapters;
+using WebBrowser.Data.HistoryDataSetTableAdapters;
 
 
 namespace WebBrowser.Logic
@@ -25,7 +26,6 @@ namespace WebBrowser.Logic
             foreach (var row in rows)
             {
                 var item = new BookmarkItem();
-                //item.Id = row.Id;
                 item.URL = row.URL;
                 item.Title = row.Title;
 
@@ -36,3 +36,5 @@ namespace WebBrowser.Logic
         }
     }
 }
+
+

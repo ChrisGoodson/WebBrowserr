@@ -101,7 +101,7 @@ namespace WebBrowser.UI
             this.button1.Size = new System.Drawing.Size(175, 27);
             this.button1.TabIndex = 3;
             this.button1.Text = "clear history";
-            this.toolTip1.SetToolTip(this.button1, "clear entire history");
+            this.toolTip1.SetToolTip(this.button1, "clear all history");
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

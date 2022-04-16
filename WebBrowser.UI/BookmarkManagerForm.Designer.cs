@@ -112,7 +112,7 @@ namespace WebBrowser.UI
             this.Controls.Add(this.bookSrchBtn);
             this.Controls.Add(this.bookSrchBox);
             this.Controls.Add(this.listBox1);
-            this.Font = new System.Drawing.Font("Apercu Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BookmarkManagerForm";

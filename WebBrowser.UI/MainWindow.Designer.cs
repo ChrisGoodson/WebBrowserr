@@ -57,7 +57,7 @@
             // menuStrip1
             // 
             this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.menuStrip1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileItem,
             this.toolsItem,
@@ -76,56 +76,56 @@
             this.saveItem,
             this.printItem,
             this.exitItem});
-            this.fileItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fileItem.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fileItem.Name = "fileItem";
             this.fileItem.Size = new System.Drawing.Size(46, 20);
-            this.fileItem.Text = "FILE";
+            this.fileItem.Text = "File";
             // 
             // newTabItem
             // 
-            this.newTabItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.newTabItem.Font = new System.Drawing.Font("Times New Roman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newTabItem.Name = "newTabItem";
             this.newTabItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
             this.newTabItem.Size = new System.Drawing.Size(271, 22);
-            this.newTabItem.Text = "new tab";
+            this.newTabItem.Text = "New tab";
             this.newTabItem.Click += new System.EventHandler(this.newTabItem_Click);
             // 
             // closeTabItem
             // 
             this.closeTabItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.closeTabItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closeTabItem.Font = new System.Drawing.Font("Times New Roman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.closeTabItem.Name = "closeTabItem";
             this.closeTabItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.W)));
             this.closeTabItem.Size = new System.Drawing.Size(271, 22);
-            this.closeTabItem.Text = "close current tab";
+            this.closeTabItem.Text = "Close current tab";
             this.closeTabItem.Click += new System.EventHandler(this.closeTabItem_Click);
             // 
             // saveItem
             // 
-            this.saveItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.saveItem.Name = "saveItem";
+            this.saveItem.Font = new System.Drawing.Font("Times New Roman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveItem.Name = "SaveItem";
             this.saveItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
             this.saveItem.Size = new System.Drawing.Size(271, 22);
-            this.saveItem.Text = "save page as HTML";
+            this.saveItem.Text = "Save page as HTML";
             this.saveItem.Click += new System.EventHandler(this.saveItem_Click);
             // 
             // printItem
             // 
-            this.printItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.printItem.Font = new System.Drawing.Font("Times New Roman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.printItem.Name = "printItem";
             this.printItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
             this.printItem.Size = new System.Drawing.Size(271, 22);
-            this.printItem.Text = "print page";
+            this.printItem.Text = "Print page";
             this.printItem.Click += new System.EventHandler(this.printItem_Click);
             // 
             // exitItem
             // 
-            this.exitItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exitItem.Font = new System.Drawing.Font("Times New Roman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitItem.Name = "exitItem";
             this.exitItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
             this.exitItem.Size = new System.Drawing.Size(271, 22);
-            this.exitItem.Text = "exit browser";
+            this.exitItem.Text = "Exit browser";
             this.exitItem.Click += new System.EventHandler(this.exitItem_Click);
             // 
             // toolsItem
@@ -136,15 +136,15 @@
             this.manageHistoryToolStrip,
             this.clearHistoryToolStripMenuItem,
             this.prefItem});
-            this.toolsItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolsItem.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolsItem.Name = "toolsItem";
             this.toolsItem.Size = new System.Drawing.Size(64, 20);
-            this.toolsItem.Text = "TOOLS";
+            this.toolsItem.Text = "Tools";
             // 
             // manageBookmarksToolStrip
             // 
             this.manageBookmarksToolStrip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.manageBookmarksToolStrip.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.manageBookmarksToolStrip.Font = new System.Drawing.Font("Times New Roman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.manageBookmarksToolStrip.Name = "manageBookmarksToolStrip";
             this.manageBookmarksToolStrip.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.O)));
@@ -162,59 +162,59 @@
             // manageHistoryToolStrip
             // 
             this.manageHistoryToolStrip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.manageHistoryToolStrip.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.manageHistoryToolStrip.Font = new System.Drawing.Font("Times New Roman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.manageHistoryToolStrip.Name = "manageHistoryToolStrip";
             this.manageHistoryToolStrip.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.H)));
             this.manageHistoryToolStrip.Size = new System.Drawing.Size(270, 22);
-            this.manageHistoryToolStrip.Text = "manage history";
+            this.manageHistoryToolStrip.Text = "Manage history";
             this.manageHistoryToolStrip.Click += new System.EventHandler(this.manageHistoryToolStrip_Click);
             // 
             // clearHistoryToolStripMenuItem
             // 
             this.clearHistoryToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.clearHistoryToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearHistoryToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearHistoryToolStripMenuItem.Name = "clearHistoryToolStripMenuItem";
             this.clearHistoryToolStripMenuItem.Size = new System.Drawing.Size(270, 22);
-            this.clearHistoryToolStripMenuItem.Text = "clear history";
+            this.clearHistoryToolStripMenuItem.Text = "Clear history";
             this.clearHistoryToolStripMenuItem.Click += new System.EventHandler(this.clearHistoryToolStripMenuItem_Click);
             // 
             // prefItem
             // 
             this.prefItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.prefItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prefItem.Font = new System.Drawing.Font("Times New Roman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prefItem.Name = "prefItem";
             this.prefItem.Size = new System.Drawing.Size(270, 22);
-            this.prefItem.Text = "settings";
+            this.prefItem.Text = "Settings";
             this.prefItem.Click += new System.EventHandler(this.prefItem_Click);
             // 
             // helpItem
             // 
             this.helpItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutItem});
-            this.helpItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.helpItem.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.helpItem.Name = "helpItem";
             this.helpItem.Size = new System.Drawing.Size(54, 20);
-            this.helpItem.Text = "HELP";
+            this.helpItem.Text = "Help";
             // 
             // aboutItem
             // 
             this.aboutItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.aboutItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.aboutItem.Font = new System.Drawing.Font("Times New Roman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aboutItem.Name = "aboutItem";
             this.aboutItem.Size = new System.Drawing.Size(108, 22);
-            this.aboutItem.Text = "about";
+            this.aboutItem.Text = "About";
             this.aboutItem.Click += new System.EventHandler(this.aboutItem_Click);
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.tabPages1);
-            this.tabPage1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1176, 772);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "TAB 1";
+            this.tabPage1.Text = "Tab 1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPages1
@@ -233,7 +233,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.ItemSize = new System.Drawing.Size(120, 20);
             this.tabControl1.Location = new System.Drawing.Point(0, 24);
             this.tabControl1.Multiline = true;
@@ -253,7 +253,7 @@
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Size = new System.Drawing.Size(1176, 772);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "    ➕";
+            this.tabPage2.Text = "    +";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // printPreviewDialog1
@@ -276,7 +276,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainWindow";
-            this.Text = "luminati browser @_@";
+            this.Text = "Web Browser";
             this.Load += new System.EventHandler(this.MainWindow_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

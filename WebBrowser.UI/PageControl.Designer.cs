@@ -50,9 +50,8 @@
             // 
             // toolStrip1
             // 
-            this.toolStrip1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("toolStrip1.BackgroundImage")));
             this.toolStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.toolStrip1.Font = new System.Drawing.Font("Apercu Pro", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStrip1.Font = new System.Drawing.Font("Times New Roman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.backBtn,
             this.forwardBtn,
@@ -66,7 +65,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 10, 1, 10);
-            this.toolStrip1.Size = new System.Drawing.Size(886, 47);
+            this.toolStrip1.Size = new System.Drawing.Size(886, 46);
             this.toolStrip1.Stretch = true;
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
@@ -78,7 +77,7 @@
             this.backBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.backBtn.Margin = new System.Windows.Forms.Padding(0, 1, 5, 2);
             this.backBtn.Name = "backBtn";
-            this.backBtn.Size = new System.Drawing.Size(23, 24);
+            this.backBtn.Size = new System.Drawing.Size(23, 23);
             this.backBtn.Text = "Go Back";
             this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
             // 
@@ -88,7 +87,7 @@
             this.forwardBtn.Image = ((System.Drawing.Image)(resources.GetObject("forwardBtn.Image")));
             this.forwardBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.forwardBtn.Name = "forwardBtn";
-            this.forwardBtn.Size = new System.Drawing.Size(23, 24);
+            this.forwardBtn.Size = new System.Drawing.Size(23, 23);
             this.forwardBtn.Text = "Go Forward";
             this.forwardBtn.Click += new System.EventHandler(this.forwardBtn_Click);
             // 
@@ -99,7 +98,7 @@
             this.refreshBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.refreshBtn.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
             this.refreshBtn.Name = "refreshBtn";
-            this.refreshBtn.Size = new System.Drawing.Size(23, 24);
+            this.refreshBtn.Size = new System.Drawing.Size(23, 23);
             this.refreshBtn.Text = "Refresh";
             this.refreshBtn.Click += new System.EventHandler(this.refreshBtn_Click);
             // 
@@ -110,15 +109,15 @@
             this.homeBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.homeBtn.Margin = new System.Windows.Forms.Padding(5, 1, 5, 2);
             this.homeBtn.Name = "homeBtn";
-            this.homeBtn.Size = new System.Drawing.Size(23, 24);
+            this.homeBtn.Size = new System.Drawing.Size(23, 23);
             this.homeBtn.Text = "Go Home";
             this.homeBtn.Click += new System.EventHandler(this.homeBtn_Click);
             // 
             // addressBox
             // 
-            this.addressBox.Font = new System.Drawing.Font("Apercu Pro", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addressBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addressBox.Name = "addressBox";
-            this.addressBox.Size = new System.Drawing.Size(600, 27);
+            this.addressBox.Size = new System.Drawing.Size(600, 26);
             this.addressBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.addressBox_KeyUp);
             // 
             // goBtn
@@ -128,7 +127,7 @@
             this.goBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.goBtn.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
             this.goBtn.Name = "goBtn";
-            this.goBtn.Size = new System.Drawing.Size(23, 24);
+            this.goBtn.Size = new System.Drawing.Size(23, 23);
             this.goBtn.Text = "Go";
             this.goBtn.Click += new System.EventHandler(this.goBtn_Click);
             // 
@@ -139,16 +138,16 @@
             this.bookmarksBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.bookmarksBtn.Margin = new System.Windows.Forms.Padding(5, 1, 5, 2);
             this.bookmarksBtn.Name = "bookmarksBtn";
-            this.bookmarksBtn.Size = new System.Drawing.Size(23, 24);
+            this.bookmarksBtn.Size = new System.Drawing.Size(23, 23);
             this.bookmarksBtn.Text = "Bookmarks";
             this.bookmarksBtn.Click += new System.EventHandler(this.bookmarksBtn_Click);
             // 
             // searchBox
             // 
-            this.searchBox.Font = new System.Drawing.Font("Apercu Pro", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchBox.Font = new System.Drawing.Font("Times New Roman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchBox.Margin = new System.Windows.Forms.Padding(20, 0, 5, 0);
             this.searchBox.Name = "searchBox";
-            this.searchBox.Size = new System.Drawing.Size(200, 23);
+            this.searchBox.Size = new System.Drawing.Size(200, 22);
             this.searchBox.Text = "search";
             this.searchBox.ToolTipText = "enter search topic here";
             this.searchBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.searchBox_KeyUp);
@@ -157,10 +156,9 @@
             // searchBtn
             // 
             this.searchBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.searchBtn.Image = ((System.Drawing.Image)(resources.GetObject("searchBtn.Image")));
             this.searchBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.searchBtn.Name = "searchBtn";
-            this.searchBtn.Size = new System.Drawing.Size(23, 20);
+            this.searchBtn.Size = new System.Drawing.Size(23, 4);
             this.searchBtn.Text = "toolStripButton1";
             this.searchBtn.ToolTipText = "search";
             this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
@@ -168,11 +166,11 @@
             // webBrowser1
             // 
             this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser1.Location = new System.Drawing.Point(0, 47);
+            this.webBrowser1.Location = new System.Drawing.Point(0, 46);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.ScriptErrorsSuppressed = true;
-            this.webBrowser1.Size = new System.Drawing.Size(886, 518);
+            this.webBrowser1.Size = new System.Drawing.Size(886, 519);
             this.webBrowser1.TabIndex = 3;
             this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             this.webBrowser1.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser1_Navigated);
@@ -180,7 +178,6 @@
             // 
             // statusStrip
             // 
-            this.statusStrip.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("statusStrip.BackgroundImage")));
             this.statusStrip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.progressBar,
@@ -194,7 +191,7 @@
             // 
             // progressBar
             // 
-            this.progressBar.Font = new System.Drawing.Font("Apercu Pro", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.progressBar.Font = new System.Drawing.Font("Times New Roman", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.progressBar.Margin = new System.Windows.Forms.Padding(10, 6, 6, 6);
             this.progressBar.MarqueeAnimationSpeed = 80;
             this.progressBar.Name = "progressBar";
@@ -204,17 +201,17 @@
             // statusLbl
             // 
             this.statusLbl.ActiveLinkColor = System.Drawing.Color.PeachPuff;
-            this.statusLbl.Font = new System.Drawing.Font("Apercu Pro Mono", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusLbl.Font = new System.Drawing.Font("Times New Roman", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statusLbl.Name = "statusLbl";
-            this.statusLbl.Size = new System.Drawing.Size(49, 22);
+            this.statusLbl.Size = new System.Drawing.Size(35, 22);
             this.statusLbl.Text = "status";
             // 
             // urlStatusLbl
             // 
-            this.urlStatusLbl.Font = new System.Drawing.Font("Apercu Pro Mono", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.urlStatusLbl.Font = new System.Drawing.Font("Times New Roman", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.urlStatusLbl.Margin = new System.Windows.Forms.Padding(30, 3, 0, 2);
             this.urlStatusLbl.Name = "urlStatusLbl";
-            this.urlStatusLbl.Size = new System.Drawing.Size(28, 22);
+            this.urlStatusLbl.Size = new System.Drawing.Size(21, 22);
             this.urlStatusLbl.Text = "url";
             // 
             // PageControl
